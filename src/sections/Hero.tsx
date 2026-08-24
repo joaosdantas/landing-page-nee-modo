@@ -1,7 +1,7 @@
 import { ArrowRight } from 'lucide-react'
 import Button from '../components/Button'
 import HeroMockup from '../components/HeroMockup'
-import { CONTACT_URL } from '../lib/site'
+import { whatsappUrl, WHATSAPP_MESSAGES } from '../lib/site'
 
 export default function Hero() {
   return (
@@ -28,11 +28,11 @@ export default function Hero() {
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
-          <Button href={CONTACT_URL} size="lg">
-            Conhecer o Nee MODO
+          <Button href={whatsappUrl(WHATSAPP_MESSAGES.hero)} size="lg">
+            Quero conhecer o Nee MODO
             <ArrowRight className="h-5 w-5" aria-hidden="true" />
           </Button>
-          <Button href={CONTACT_URL} variant="outline" size="lg">
+          <Button href={whatsappUrl(WHATSAPP_MESSAGES.navbar)} variant="outline" size="lg">
             Falar com especialista
           </Button>
         </div>

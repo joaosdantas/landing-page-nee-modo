@@ -1,7 +1,7 @@
 import { CircleCheck } from 'lucide-react'
 import Button from '../components/Button'
 import SectionHeading from '../components/SectionHeading'
-import { CONTACT_URL } from '../lib/site'
+import { whatsappUrl, WHATSAPP_MESSAGES } from '../lib/site'
 
 const items = [
   'Logotipo da empresa',
@@ -31,7 +31,7 @@ export default function WhiteLabel() {
                 </li>
               ))}
             </ul>
-            <Button href={CONTACT_URL} className="mt-10">
+            <Button href={whatsappUrl(WHATSAPP_MESSAGES.whitelabel)} className="mt-10">
               Quero conhecer o White-label
             </Button>
           </div>

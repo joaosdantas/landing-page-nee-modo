@@ -1,7 +1,7 @@
 import { ArrowRight } from 'lucide-react'
 import Button from '../components/Button'
 import SectionHeading from '../components/SectionHeading'
-import { CONTACT_URL } from '../lib/site'
+import { whatsappUrl, WHATSAPP_MESSAGES } from '../lib/site'
 
 const benefits = [
   'Saiba onde cada processo está.',
@@ -25,7 +25,7 @@ export default function ManagerBenefits() {
                 title="Mais controle para quem precisa tomar decisões."
                 description="O Nee MODO foi criado para o gestor que precisa enxergar tudo e decidir com segurança."
               />
-              <Button href={CONTACT_URL} variant="outline" className="mt-10">
+              <Button href={whatsappUrl(WHATSAPP_MESSAGES.features)} variant="outline" className="mt-10">
                 Falar com especialista
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </Button>

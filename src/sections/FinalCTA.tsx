@@ -1,5 +1,5 @@
 import Button from '../components/Button'
-import { CONTACT_URL } from '../lib/site'
+import { whatsappUrl, WHATSAPP_MESSAGES } from '../lib/site'
 
 export default function FinalCTA() {
   return (
@@ -19,7 +19,7 @@ export default function FinalCTA() {
               acompanhar e gerenciar sua operação imobiliária.
             </p>
             <div className="mt-10">
-              <Button href={CONTACT_URL} size="lg">
+              <Button href={whatsappUrl(WHATSAPP_MESSAGES.final_cta)} size="lg">
                 Falar com um especialista
               </Button>
             </div>

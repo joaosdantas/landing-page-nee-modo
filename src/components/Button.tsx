@@ -42,8 +42,14 @@ export default function Button({
   const classes = cn(base, variants[variant], sizes[size], className)
 
   if (href) {
+    const isExternal = /^https?:\/\//i.test(href)
     return (
-      <a href={href} onClick={onClick} className={classes}>
+      <a
+        href={href}
+        onClick={onClick}
+        {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+        className={classes}
+      >
         {children}
       </a>
     )

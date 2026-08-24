@@ -1,6 +1,7 @@
 import { CircleCheck } from 'lucide-react'
 import PricingCard from '../components/PricingCard'
 import SectionHeading from '../components/SectionHeading'
+import { whatsappUrl, WHATSAPP_MESSAGES } from '../lib/site'
 
 const plans = [
   {
@@ -10,6 +11,7 @@ const plans = [
     description: 'Para operações pequenas que precisam organizar e centralizar sua gestão.',
     badge: undefined,
     highlighted: false,
+    ctaHref: whatsappUrl(WHATSAPP_MESSAGES.pricing.essencial),
   },
   {
     name: 'Profissional',
@@ -18,6 +20,7 @@ const plans = [
     description: 'Para operações em crescimento que precisam de mais controle no dia a dia.',
     badge: 'Mais escolhido',
     highlighted: true,
+    ctaHref: whatsappUrl(WHATSAPP_MESSAGES.pricing.profissional),
   },
   {
     name: 'Gestão',
@@ -26,6 +29,7 @@ const plans = [
     description: 'Para equipes maiores que gerenciam múltiplas frentes ao mesmo tempo.',
     badge: undefined,
     highlighted: false,
+    ctaHref: whatsappUrl(WHATSAPP_MESSAGES.pricing.gestao),
   },
   {
     name: 'Enterprise',
@@ -35,6 +39,7 @@ const plans = [
     description: 'Para operações maiores e necessidades personalizadas.',
     badge: undefined,
     highlighted: false,
+    ctaHref: whatsappUrl(WHATSAPP_MESSAGES.pricing.enterprise),
   },
 ]
 
@@ -77,6 +82,7 @@ export default function Pricing() {
               description={plan.description}
               badge={plan.badge}
               highlighted={plan.highlighted}
+              ctaHref={plan.ctaHref}
             />
           ))}
         </div>

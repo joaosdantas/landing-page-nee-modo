@@ -3,7 +3,7 @@ import { Menu, X } from 'lucide-react'
 import Button from './Button'
 import Logo from './Logo'
 import { cn } from '../lib/utils'
-import { CONTACT_URL } from '../lib/site'
+import { whatsappUrl, WHATSAPP_MESSAGES } from '../lib/site'
 
 const links = [
   { label: 'Solução', href: '#solucao' },
@@ -47,7 +47,7 @@ export default function Navbar() {
           ))}
         </div>
         <div className="hidden lg:block">
-          <Button href={CONTACT_URL} size="sm">
+          <Button href={whatsappUrl(WHATSAPP_MESSAGES.navbar)} size="sm">
             Falar com especialista
           </Button>
         </div>
@@ -74,7 +74,7 @@ export default function Navbar() {
                 {link.label}
               </a>
             ))}
-            <Button href={CONTACT_URL} className="mt-3 w-full">
+            <Button href={whatsappUrl(WHATSAPP_MESSAGES.navbar)} className="mt-3 w-full">
               Falar com especialista
             </Button>
           </div>

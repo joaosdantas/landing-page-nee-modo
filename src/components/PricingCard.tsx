@@ -1,7 +1,6 @@
 import { Users } from 'lucide-react'
 import Button from './Button'
 import { cn } from '../lib/utils'
-import { CONTACT_URL } from '../lib/site'
 
 type PricingCardProps = {
   name: string
@@ -12,6 +11,7 @@ type PricingCardProps = {
   description: string
   badge?: string
   highlighted?: boolean
+  ctaHref: string
   ctaLabel?: string
 }
 
@@ -24,6 +24,7 @@ export default function PricingCard({
   description,
   badge,
   highlighted = false,
+  ctaHref,
   ctaLabel = 'Falar com especialista',
 }: PricingCardProps) {
   return (
@@ -61,7 +62,7 @@ export default function PricingCard({
       </p>
       <p className="mt-4 text-sm leading-relaxed text-slate-400">{description}</p>
       <div className="flex-1" />
-      <Button href={CONTACT_URL} variant={highlighted ? 'primary' : 'outline'} className="mt-8 w-full">
+      <Button href={ctaHref} variant={highlighted ? 'primary' : 'outline'} className="mt-8 w-full">
         {ctaLabel}
       </Button>
     </div>
