@@ -1,4 +1,4 @@
-import logoOnDark from '../assets/logo_nee-modo-preto.svg'
+import logoOnDark from '../assets/logo_nee-modo-branco.svg'
 
 export default function Logo({ className = 'h-7 w-auto' }: { className?: string }) {
   return (

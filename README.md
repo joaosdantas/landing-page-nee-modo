@@ -79,8 +79,8 @@ Baseada na identidade Nexabee: fundos escuros (`ink`: `#090C15`, `#0C101D`, `#11
 
 Logotipos oficiais em `src/assets/`:
 
-- `logo_nee-modo-preto.svg` — para fundos escuros (usado na Navbar/Footer)
-- `logo_nee-modo.svg` — para fundos claros
+- `logo_nee-modo-branco.svg` — para fundos escuros (usado na Navbar/Footer)
+- `logo_nee-modo-preto.svg` — para fundos claros
 
 O favicon (`public/favicon.svg`) foi gerado a partir do "M" do logotipo.
 
