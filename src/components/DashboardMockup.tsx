@@ -65,7 +65,7 @@ export default function DashboardMockup() {
         <span className="h-2.5 w-2.5 rounded-full bg-white/15" />
         <span className="h-2.5 w-2.5 rounded-full bg-white/15" />
         <span className="ml-3 hidden max-w-xs flex-1 truncate rounded-md bg-white/[0.06] px-3 py-1 text-[11px] text-slate-400 sm:block">
-          app.neemodo.com
+          modo.nexabee.com.br
         </span>
         <span className="ml-auto flex items-center gap-3">
           <span className="hidden items-center gap-2 rounded-md bg-white/[0.06] px-3 py-1.5 text-[11px] text-slate-500 md:flex">

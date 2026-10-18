@@ -7,6 +7,7 @@ import Features from './sections/Features'
 import ProductPreview from './sections/ProductPreview'
 import ManagerBenefits from './sections/ManagerBenefits'
 import WhiteLabel from './sections/WhiteLabel'
+import Testimonials from './sections/Testimonials'
 import Pricing from './sections/Pricing'
 import FAQ from './sections/FAQ'
 import FinalCTA from './sections/FinalCTA'
@@ -24,6 +25,7 @@ export default function App() {
         <Features />
         <ProductPreview />
         <ManagerBenefits />
+        <Testimonials />
         <WhiteLabel />
         <Pricing />
         <FAQ />

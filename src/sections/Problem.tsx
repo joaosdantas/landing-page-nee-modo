@@ -4,33 +4,35 @@ import SectionHeading from '../components/SectionHeading'
 const pains = [
   {
     icon: Split,
-    title: 'Processos espalhados',
-    description: 'Informações e etapas vivem em ferramentas, planilhas e conversas diferentes.',
+    title: 'Excel e WhatsApp como “sistema”',
+    description:
+      'Correspondentes e assessorias perdem tempo com planilha, print e mensagem — e o processo de financiamento some no meio.',
   },
   {
     icon: FileSearch,
     title: 'Documentos difíceis de encontrar',
-    description: 'Tempo perdido buscando arquivos importantes no meio da operação.',
+    description: 'Arquivos espalhados atrasam análise, pendência e registro — e travam o fluxo com a construtora.',
   },
   {
     icon: EyeOff,
-    title: 'Falta de visibilidade',
-    description: 'Sem uma visão clara, é difícil saber onde cada processo realmente está.',
+    title: 'Sem visão da esteira',
+    description: 'Ninguém sabe em qual etapa está cada operação: cadastro, análise CCA, CCV, minuta ou cartório.',
   },
   {
     icon: ClipboardList,
     title: 'Acompanhamento manual',
-    description: 'Cobranças e atualizações dependem de esforço manual constante.',
+    description: 'Cobranças e atualizações dependem de esforço constante — menos tempo para originar novos processos.',
   },
   {
     icon: Network,
-    title: 'Informações descentralizadas',
-    description: 'Cada área guarda seus dados de um jeito, sem padrão nem histórico.',
+    title: 'Corretor, CCA e construtora desconectados',
+    description: 'Cada um trabalha num canal diferente; falta padrão, histórico e responsabilidade por etapa.',
   },
   {
     icon: Gauge,
-    title: 'Gestores sem visão da operação',
-    description: 'Decisões tomadas sem enxergar o todo da operação.',
+    title: 'Volume limitado = renda limitada',
+    description:
+      'Sistemas precários seguram quantos financiamentos o time consegue concluir. Menos agilidade, menos receita.',
   },
 ]
 
@@ -44,8 +46,8 @@ export default function Problem() {
               <SectionHeading
                 align="left"
                 eyebrow="O problema"
-                title="Sua operação não deveria depender de planilhas e mensagens."
-                description="Quando cliente, financiamento e documentos ficam em lugares diferentes, quem perde o controle é o gestor."
+                title="Sua operação de crédito imobiliário não deveria viver em planilha."
+                description="Quando o correspondente depende de Excel e WhatsApp, o gestor perde controle — e a equipe deixa de fechar mais processos com segurança e agilidade."
               />
             </div>
           </div>

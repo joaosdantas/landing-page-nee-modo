@@ -68,7 +68,7 @@ export default function Pricing() {
         <SectionHeading
           eyebrow="Planos"
           title="Escolha o plano ideal para sua operação."
-          description="Planos definidos pelo tamanho da sua equipe e da sua operação."
+          description="Preços públicos e transparentes — definidos pelo tamanho da equipe. Implantação gratuita na condição especial de lançamento para os primeiros clientes."
         />
 
         <div className="mt-16 grid items-stretch gap-6 md:grid-cols-2 xl:mt-20 xl:grid-cols-4">

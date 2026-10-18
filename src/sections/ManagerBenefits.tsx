@@ -4,12 +4,12 @@ import SectionHeading from '../components/SectionHeading'
 import { whatsappUrl, WHATSAPP_MESSAGES } from '../lib/site'
 
 const benefits = [
-  'Saiba onde cada processo está.',
-  'Identifique gargalos antes que eles virem problemas.',
-  'Tenha uma visão clara da produtividade da equipe.',
-  'Reduza informações espalhadas em planilhas e mensagens.',
-  'Tenha histórico e rastreabilidade da operação.',
-  'Centralize a gestão em um único ambiente.',
+  'Faça mais processos de financiamento no mesmo tempo — e aumente a renda da operação.',
+  'Saiba onde cada processo está (análise, pendência, minuta, registro).',
+  'Identifique gargalos antes que eles virem atraso com cliente ou construtora.',
+  'Tire a equipe do Excel e do WhatsApp como sistema.',
+  'Ganhe segurança com histórico e rastreabilidade (LGPD-friendly).',
+  'Libere tempo do gestor para focar em parceria, origem e fechamento.',
 ]
 
 export default function ManagerBenefits() {
@@ -22,11 +22,11 @@ export default function ManagerBenefits() {
               <SectionHeading
                 align="left"
                 eyebrow="Para o gestor"
-                title="Mais controle para quem precisa tomar decisões."
-                description="O Nee MODO foi criado para o gestor que precisa enxergar tudo e decidir com segurança."
+                title="Mais processos, mais renda, mais tempo."
+                description="Feito para o gestor de correspondente e assessoria que precisa enxergar a esteira inteira — e decidir com segurança."
               />
-              <Button href={whatsappUrl(WHATSAPP_MESSAGES.features)} variant="outline" className="mt-10">
-                Falar com especialista
+              <Button href={whatsappUrl(WHATSAPP_MESSAGES.demo)} variant="outline" className="mt-10">
+                Pedir demo no WhatsApp
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </Button>
             </div>

@@ -9,6 +9,7 @@ const links = [
   { label: 'Solução', href: '#solucao' },
   { label: 'Como funciona', href: '#como-funciona' },
   { label: 'Funcionalidades', href: '#funcionalidades' },
+  { label: 'Clientes', href: '#depoimentos' },
   { label: 'Planos', href: '#planos' },
   { label: 'FAQ', href: '#faq' },
 ]
@@ -47,8 +48,8 @@ export default function Navbar() {
           ))}
         </div>
         <div className="hidden lg:block">
-          <Button href={whatsappUrl(WHATSAPP_MESSAGES.navbar)} size="sm">
-            Falar com especialista
+          <Button href={whatsappUrl(WHATSAPP_MESSAGES.demo)} size="sm">
+            Demo no WhatsApp
           </Button>
         </div>
         <button
@@ -74,8 +75,8 @@ export default function Navbar() {
                 {link.label}
               </a>
             ))}
-            <Button href={whatsappUrl(WHATSAPP_MESSAGES.navbar)} className="mt-3 w-full">
-              Falar com especialista
+            <Button href={whatsappUrl(WHATSAPP_MESSAGES.demo)} className="mt-3 w-full">
+              Demo no WhatsApp
             </Button>
           </div>
         </div>

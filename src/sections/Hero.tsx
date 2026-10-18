@@ -1,7 +1,7 @@
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, Linkedin } from 'lucide-react'
 import Button from '../components/Button'
 import HeroMockup from '../components/HeroMockup'
-import { whatsappUrl, WHATSAPP_MESSAGES } from '../lib/site'
+import { CONTACTS, whatsappUrl, WHATSAPP_MESSAGES } from '../lib/site'
 
 export default function Hero() {
   return (
@@ -15,25 +15,31 @@ export default function Hero() {
       <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
         <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-4 py-1.5 text-xs font-medium uppercase tracking-[0.18em] text-slate-300">
           <span className="h-1.5 w-1.5 rounded-full bg-amber-400" aria-hidden="true" />
-          Uma solução Nexabee
+          Uma solução Nexabee · correspondente &amp; assessoria
         </span>
 
         <h1 className="mx-auto mt-8 max-w-4xl text-balance text-4xl font-semibold leading-[1.08] tracking-tight text-white sm:text-6xl lg:text-7xl">
-          Tenha o <span className="text-amber-400">controle</span> de toda a sua operação
-          imobiliária.
+          Mais processos de <span className="text-amber-400">financiamento</span> em menos tempo.
         </h1>
 
         <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-slate-400 sm:text-xl">
-          Centralize clientes, financiamentos, documentos e aprovações em uma única plataforma.
+          Plataforma para correspondente bancário e assessoria imobiliária: tire a operação do Excel
+          e do WhatsApp. Centralize clientes, documentos e aprovações (corretor → CCA → construtora)
+          — mais renda, segurança e tempo para o que importa.
+        </p>
+
+        <p className="mx-auto mt-4 max-w-xl text-sm font-medium text-amber-400/90">
+          Lançamento: implantação gratuita para os primeiros clientes selecionados.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
-          <Button href={whatsappUrl(WHATSAPP_MESSAGES.hero)} size="lg">
-            Quero conhecer o Nee MODO
+          <Button href={whatsappUrl(WHATSAPP_MESSAGES.demo)} size="lg">
+            Pedir demo no WhatsApp
             <ArrowRight className="h-5 w-5" aria-hidden="true" />
           </Button>
-          <Button href={whatsappUrl(WHATSAPP_MESSAGES.navbar)} variant="outline" size="lg">
-            Falar com especialista
+          <Button href={CONTACTS.linkedin} variant="outline" size="lg">
+            <Linkedin className="h-5 w-5" aria-hidden="true" />
+            Seguir no LinkedIn
           </Button>
         </div>
 

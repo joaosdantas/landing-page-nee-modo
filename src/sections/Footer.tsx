@@ -1,3 +1,4 @@
+import { Linkedin } from 'lucide-react'
 import Logo from '../components/Logo'
 import { site, CONTACTS, mailtoUrl, whatsappUrl, WHATSAPP_MESSAGES } from '../lib/site'
 
@@ -5,6 +6,7 @@ const links = [
   { label: 'Solução', href: '#solucao' },
   { label: 'Como funciona', href: '#como-funciona' },
   { label: 'Funcionalidades', href: '#funcionalidades' },
+  { label: 'Clientes', href: '#depoimentos' },
   { label: 'White-label', href: '#white-label' },
   { label: 'Planos', href: '#planos' },
   { label: 'FAQ', href: '#faq' },
@@ -43,7 +45,7 @@ export default function Footer() {
                 <li>
                   <span className="block text-slate-500">WhatsApp</span>
                   <a
-                    href={whatsappUrl(WHATSAPP_MESSAGES.final_cta)}
+                    href={whatsappUrl(WHATSAPP_MESSAGES.demo)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-0.5 inline-flex min-h-[24px] items-center text-slate-200 transition-colors hover:text-white"
@@ -61,11 +63,15 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
+                  <span className="block text-slate-500">LinkedIn</span>
                   <a
-                    href={mailtoUrl()}
-                    className="inline-flex min-h-[32px] items-center font-medium text-amber-400 transition-colors hover:text-amber-300"
+                    href={CONTACTS.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-0.5 inline-flex min-h-[24px] items-center gap-1.5 text-slate-200 transition-colors hover:text-white"
                   >
-                    Enviar e-mail
+                    <Linkedin className="h-3.5 w-3.5" aria-hidden="true" />
+                    Nexabee
                   </a>
                 </li>
               </ul>

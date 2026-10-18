@@ -2,9 +2,10 @@ export const CONTACTS = {
   whatsappNumber: '5511958128056',
   whatsappDisplay: '(11) 95812-8056',
   email: 'comercial@nexabee.com.br',
+  linkedin: 'https://www.linkedin.com/company/nexabee/',
 } as const
 
-export const EMAIL_SUBJECT = 'Interesse no Nee MODO'
+export const EMAIL_SUBJECT = 'Interesse no Nee MODO — correspondente / assessoria'
 
 const WHATSAPP_BASE_URL = `https://wa.me/${CONTACTS.whatsappNumber}`
 
@@ -17,11 +18,12 @@ export function mailtoUrl(): string {
 }
 
 export const WHATSAPP_MESSAGES = {
-  hero: 'Olá! Vim pelo site do Nee MODO e gostaria de conhecer a plataforma.',
+  hero: 'Olá! Vim pelo site do Nee MODO e quero uma demonstração da plataforma para correspondente / assessoria de financiamento imobiliário.',
   navbar:
     'Olá! Vim pelo site do Nee MODO e gostaria de falar com um especialista sobre a plataforma.',
+  demo: 'Olá! Quero agendar uma demo do Nee MODO no WhatsApp — somos correspondente/assessoria e hoje usamos planilha/WhatsApp.',
   features:
-    'Olá! Conheci o Nee MODO pelo site e gostaria de entender como ele pode ajudar na gestão da minha operação.',
+    'Olá! Conheci o Nee MODO pelo site e gostaria de entender como aumentar o volume de processos de financiamento com mais controle.',
   whitelabel:
     'Olá! Vim pelo site do Nee MODO e gostaria de conhecer a solução White-label para minha empresa.',
   pricing: {
@@ -37,12 +39,18 @@ export const WHATSAPP_MESSAGES = {
   implementation:
     'Olá! Gostaria de saber mais sobre a implantação do Nee MODO e a condição especial para novos clientes.',
   final_cta:
-    'Olá! Vim pelo site do Nee MODO e gostaria de conversar sobre a plataforma para minha operação.',
+    'Olá! Vim pelo site do Nee MODO e quero conversar sobre tirar a operação de financiamento do Excel/WhatsApp.',
+  testimonials:
+    'Olá! Vi os depoimentos no site do Nee MODO e quero uma demo para nossa operação de correspondente.',
 } as const
 
 export const site = {
   name: 'Nee MODO',
   company: 'Nexabee',
   signature: 'Uma solução Nexabee',
-  description: 'Uma solução Nexabee para gestão de operações imobiliárias.',
+  url: 'https://modo.nexabee.com.br',
+  description:
+    'Plataforma de gestão para correspondente bancário e assessoria de financiamento imobiliário: clientes, documentos, aprovações e esteira corretor–CCA–construtora em um só lugar.',
+  tagline:
+    'Mais processos de financiamento em menos tempo — sem planilha e sem WhatsApp como sistema.',
 } as const

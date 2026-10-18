@@ -1,5 +1,6 @@
+import { Linkedin } from 'lucide-react'
 import Button from '../components/Button'
-import { whatsappUrl, WHATSAPP_MESSAGES } from '../lib/site'
+import { CONTACTS, whatsappUrl, WHATSAPP_MESSAGES } from '../lib/site'
 
 export default function FinalCTA() {
   return (
@@ -12,15 +13,19 @@ export default function FinalCTA() {
           />
           <div className="relative">
             <h2 className="mx-auto max-w-2xl text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">
-              Sua operação merece uma visão completa.
+              Pronto para fazer mais financiamentos com menos caos?
             </h2>
             <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-slate-300">
-              Pare de acompanhar processos espalhados. Tenha uma plataforma criada para organizar,
-              acompanhar e gerenciar sua operação imobiliária.
+              Pare de gerenciar correspondente e assessoria no Excel. Fale no WhatsApp, veja a
+              esteira na prática e ganhe segurança, agilidade e tempo para crescer a operação.
             </p>
-            <div className="mt-10">
-              <Button href={whatsappUrl(WHATSAPP_MESSAGES.final_cta)} size="lg">
-                Falar com um especialista
+            <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
+              <Button href={whatsappUrl(WHATSAPP_MESSAGES.demo)} size="lg">
+                Pedir demo no WhatsApp
+              </Button>
+              <Button href={CONTACTS.linkedin} variant="outline" size="lg">
+                <Linkedin className="h-5 w-5" aria-hidden="true" />
+                LinkedIn Nexabee
               </Button>
             </div>
             <p className="mt-8 text-sm text-slate-400">Nee MODO — uma solução Nexabee.</p>
