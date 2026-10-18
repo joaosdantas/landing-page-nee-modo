@@ -20,8 +20,9 @@ const pains = [
   },
   {
     icon: ClipboardList,
-    title: 'Acompanhamento manual',
-    description: 'Cobranças e atualizações dependem de esforço constante — menos tempo para originar novos processos.',
+    title: 'Retrabalho braçal no dia a dia',
+    description:
+      'Reabrir pasta, reenviar print, recontar status e redigitar o que já existe — a equipe gasta horas em operação, não em origem.',
   },
   {
     icon: Network,

@@ -5,6 +5,7 @@ import { whatsappUrl, WHATSAPP_MESSAGES } from '../lib/site'
 
 const benefits = [
   'Faça mais processos de financiamento no mesmo tempo — e aumente a renda da operação.',
+  'Reduza trabalho braçal de organização: pasta, documento e pendência num só fluxo.',
   'Saiba onde cada processo está (análise, pendência, minuta, registro).',
   'Identifique gargalos antes que eles virem atraso com cliente ou construtora.',
   'Tire a equipe do Excel e do WhatsApp como sistema.',
@@ -22,8 +23,8 @@ export default function ManagerBenefits() {
               <SectionHeading
                 align="left"
                 eyebrow="Para o gestor"
-                title="Mais processos, mais renda, mais tempo."
-                description="Feito para o gestor de correspondente e assessoria que precisa enxergar a esteira inteira — e decidir com segurança."
+                title="Mais processos, menos braçal, mais tempo."
+                description="Feito para o gestor de correspondente e assessoria que quer cortar retrabalho — e enxergar a esteira inteira com segurança."
               />
               <Button href={whatsappUrl(WHATSAPP_MESSAGES.demo)} variant="outline" className="mt-10">
                 Pedir demo no WhatsApp

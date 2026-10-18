@@ -26,12 +26,13 @@ export default function Hero() {
         <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-slate-400 sm:text-xl">
           O Nee MODO é a plataforma para correspondente bancário e assessoria de crédito imobiliário:
           tire a operação do Excel e do WhatsApp. Centralize clientes, documentos e aprovações
-          (corretor → CCA → construtora) — mais renda, segurança e tempo para o que importa.
+          (corretor → CCA → construtora) — menos retrabalho braçal, mais renda e tempo para o que
+          importa.
         </p>
 
         <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-slate-500">
-          Software CCA com esteira única, gestão documental e white-label — feito para quem precisa
-          de um sistema de financiamento habitacional de verdade, não de planilha.
+          Software CCA com esteira única, gestão documental e white-label: menos caça a print, menos
+          status perdido e menos digitar a mesma pasta em três lugares.
         </p>
 
         <p className="mx-auto mt-4 max-w-xl text-sm font-medium text-amber-400/90">

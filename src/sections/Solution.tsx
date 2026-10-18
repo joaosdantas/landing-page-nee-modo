@@ -26,7 +26,7 @@ export default function Solution() {
         <SectionHeading
           eyebrow="Solução"
           title="O que é o Nee MODO? Uma esteira só, do cadastro ao registro."
-          description="Nee MODO é o sistema para correspondente bancário e assessoria que organiza o financiamento imobiliário. Corretor, CCA e construtora no mesmo fluxo — cada etapa com dono, documento e status."
+          description="Nee MODO é o sistema para correspondente bancário e assessoria que organiza o financiamento imobiliário. Corretor, CCA e construtora no mesmo fluxo — cada etapa com dono, documento e status, para cortar retrabalho braçal no dia a dia."
         />
 
         <ol className="relative mt-20 grid gap-12 sm:grid-cols-2 lg:grid-cols-7 lg:gap-4">

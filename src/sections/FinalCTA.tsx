@@ -13,11 +13,12 @@ export default function FinalCTA() {
           />
           <div className="relative">
             <h2 className="mx-auto max-w-2xl text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">
-              Pronto para fazer mais financiamentos com menos caos?
+              Pronto para mais financiamentos com menos trabalho braçal?
             </h2>
             <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-slate-300">
-              Pare de gerenciar correspondente e assessoria no Excel. Fale no WhatsApp, veja a
-              esteira na prática e ganhe segurança, agilidade e tempo para crescer a operação.
+              Pare de gerenciar correspondente e assessoria no Excel e no WhatsApp. Fale conosco,
+              veja a esteira na prática e troque retrabalho por processo — com segurança e tempo
+              para crescer.
             </p>
             <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <Button href={whatsappUrl(WHATSAPP_MESSAGES.demo)} size="lg">

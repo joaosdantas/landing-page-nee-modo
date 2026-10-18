@@ -21,6 +21,11 @@ export const faqs: FaqItem[] = [
       'Ao tirar o time do Excel e de sistemas precários, a equipe conclui mais processos de financiamento no mesmo período, com menos retrabalho e mais previsibilidade. Mais throughput com segurança e agilidade costuma se traduzir em mais receita — e mais tempo para originar novos negócios.',
   },
   {
+    question: 'O Nee MODO reduz trabalho braçal?',
+    answer:
+      'Sim, no sentido de organização: menos caça a documento, menos status perdido e menos redigitar a mesma pasta em planilha e WhatsApp. A esteira, as pendências e o histórico concentram o que a equipe já fazia à mão. Não substituímos o preenchimento automático de portais bancários — o ganho hoje é cortar retrabalho operacional e liberar tempo para fechar mais processos.',
+  },
+  {
     question: 'Quantos usuários posso cadastrar?',
     answer:
       'Depende do plano: o Essencial inclui até 5 usuários, o Profissional até 15, o Gestão até 30 e o Enterprise atende operações com 30 ou mais usuários.',
