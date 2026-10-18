@@ -46,8 +46,8 @@ export default function Problem() {
               <SectionHeading
                 align="left"
                 eyebrow="O problema"
-                title="Sua operação de crédito imobiliário não deveria viver em planilha."
-                description="Quando o correspondente depende de Excel e WhatsApp, o gestor perde controle — e a equipe deixa de fechar mais processos com segurança e agilidade."
+                title="Por que correspondente e assessoria não deveriam viver no Excel?"
+                description="Quando o correspondente bancário depende de planilha e WhatsApp, o gestor perde controle — e a equipe deixa de fechar mais processos de financiamento com segurança e agilidade."
               />
             </div>
           </div>

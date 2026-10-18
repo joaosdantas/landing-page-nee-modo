@@ -19,13 +19,19 @@ export default function Hero() {
         </span>
 
         <h1 className="mx-auto mt-8 max-w-4xl text-balance text-4xl font-semibold leading-[1.08] tracking-tight text-white sm:text-6xl lg:text-7xl">
-          Mais processos de <span className="text-amber-400">financiamento</span> em menos tempo.
+          Sistema para correspondente:{' '}
+          <span className="text-amber-400">mais financiamentos</span> em menos tempo.
         </h1>
 
         <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-slate-400 sm:text-xl">
-          Plataforma para correspondente bancário e assessoria imobiliária: tire a operação do Excel
-          e do WhatsApp. Centralize clientes, documentos e aprovações (corretor → CCA → construtora)
-          — mais renda, segurança e tempo para o que importa.
+          O Nee MODO é a plataforma para correspondente bancário e assessoria de crédito imobiliário:
+          tire a operação do Excel e do WhatsApp. Centralize clientes, documentos e aprovações
+          (corretor → CCA → construtora) — mais renda, segurança e tempo para o que importa.
+        </p>
+
+        <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-slate-500">
+          Software CCA com esteira única, gestão documental e white-label — feito para quem precisa
+          de um sistema de financiamento habitacional de verdade, não de planilha.
         </p>
 
         <p className="mx-auto mt-4 max-w-xl text-sm font-medium text-amber-400/90">

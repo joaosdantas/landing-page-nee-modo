@@ -10,6 +10,7 @@ const links = [
   { label: 'White-label', href: '#white-label' },
   { label: 'Planos', href: '#planos' },
   { label: 'FAQ', href: '#faq' },
+  { label: 'Sistema para correspondente', href: site.pillarPath },
 ]
 
 export default function Footer() {

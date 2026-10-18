@@ -50,7 +50,8 @@ export const site = {
   signature: 'Uma solução Nexabee',
   url: 'https://modo.nexabee.com.br',
   description:
-    'Plataforma de gestão para correspondente bancário e assessoria de financiamento imobiliário: clientes, documentos, aprovações e esteira corretor–CCA–construtora em um só lugar.',
+    'Sistema para correspondente bancário e assessoria de crédito imobiliário: clientes, documentos, aprovações e esteira corretor–CCA–construtora em um só lugar.',
   tagline:
     'Mais processos de financiamento em menos tempo — sem planilha e sem WhatsApp como sistema.',
+  pillarPath: '/sistema-correspondente-bancario/',
 } as const

@@ -25,8 +25,8 @@ export default function Solution() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Solução"
-          title="Uma esteira só: do cadastro ao registro."
-          description="O Nee MODO organiza o financiamento imobiliário do correspondente e da assessoria. Corretor, CCA e construtora no mesmo fluxo — cada etapa com dono, documento e status, do cadastro ao registro."
+          title="O que é o Nee MODO? Uma esteira só, do cadastro ao registro."
+          description="Nee MODO é o sistema para correspondente bancário e assessoria que organiza o financiamento imobiliário. Corretor, CCA e construtora no mesmo fluxo — cada etapa com dono, documento e status."
         />
 
         <ol className="relative mt-20 grid gap-12 sm:grid-cols-2 lg:grid-cols-7 lg:gap-4">

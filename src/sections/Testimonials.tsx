@@ -24,8 +24,8 @@ export default function Testimonials() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Prova social"
-          title="O que clientes reais falam"
-          description="Correspondentes e assessorias que trocaram planilha e sistemas precários por uma esteira de financiamento imobiliário com controle de ponta a ponta."
+          title="O que operações reais relatam após sair do Excel"
+          description="Correspondentes e assessorias que trocaram planilha e sistemas precários por uma esteira de financiamento imobiliário com controle de ponta a ponta. Resultados descritos pelos times — sem inventar nomes de clientes."
         />
 
         <div className="mt-14 grid gap-6 lg:grid-cols-2">
